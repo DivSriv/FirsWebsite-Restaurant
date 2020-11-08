@@ -10,7 +10,7 @@ h1 {
 body {
      background-image: url('background.jpg');
      background-repeat: no-repeat;
-     background-size: auto;
+     background-size: 100% 100%;
      background-color: #FEF5CA;
 
 }
