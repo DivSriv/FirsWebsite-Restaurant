@@ -255,7 +255,7 @@ function buildMenuItemsViewHtml(categoryMenuItems,
   menuItemsTitleHtml = 
     insertProperty(menuItemsTitleHtml,
                    "special_instructions",
-                   categoryMenuItems.category.special_instructions);
+                   "");
 
   var finalHtml = menuItemsTitleHtml;
   finalHtml += "<section class='row'>";
@@ -319,8 +319,8 @@ function insertItemPrice(html,
   if (!priceValue) {
     return insertProperty(html, pricePropName, "");;
   }
-
-  priceValue = "$" + priceValue.toFixed(2);
+  priceValue*=10;
+  priceValue = "Rs. " + priceValue.toFixed(2);
   html = insertProperty(html, pricePropName, priceValue);
   return html;
 }

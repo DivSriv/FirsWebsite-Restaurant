@@ -1,19 +1,24 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #0d314b;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #98d8cb;
   border-radius: 0;
   border: 0;
 }
 
+.gradient{
+  background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+  height: 3px;
+}
+
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/DivResLogo-large.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -84,7 +89,7 @@ body {
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
+  margin-top: 0px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
@@ -132,11 +137,11 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+  background: url('../images/menuNew.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('../images/specialsNew.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -233,7 +238,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background: url('../images/RESPicNew1200.jpg') no-repeat;
     height: 675px;
   }
 }
@@ -242,7 +247,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../images/DivResLogo-medium.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -251,7 +256,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background: url('../images/RESPicNew992.jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -261,7 +266,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+    background: url('../images/RESPicNew768.jpg') no-repeat;
     height: 432px;
   }
   /* End Home Page */
